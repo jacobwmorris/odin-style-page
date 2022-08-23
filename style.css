@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.header-box {
+    flex: none;
+    height: 48px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-list a {
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+.first-box {
+    flex: none;
+    display: flex;
+}
+
+.site-title-box {
+    display:flex;
+    flex-direction: column;
+}
